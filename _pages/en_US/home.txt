@@ -1,26 +1,25 @@
 ---
 layout: splash
-title: "3DS Guide" #
+title: "PlayStation 2 Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "A complete guide to 3DS custom firmware, <br /> from stock to boot9strap.<br />"
+excerpt: "A complete guide to FreeMcBoot, <br /> from Ulaunchelf to OPL.<br />"
 ---
 
 Thoroughly read all of the introductory pages (including this one!) before proceeding.
 {: .notice--warning}
 
 {% capture notice-1 %}
-This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!    
-If you have a developer ("PANDA" or "SNAKE") console, check out [devGuide](https://dev.3ds.guide).
+This guide is for retail (consumer purchased; not the DEVELOPER Consoles) consoles _only_!    
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-1 %}
-This guide is available in other languages!    
+This guide is NOT available in other languages YET!    
 Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.
 {% endcapture %}
 
@@ -36,40 +35,22 @@ This guide needs *your* help to seed [these](https://3ds.guide/rss.xml) torrents
 
 [**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
 
-In many cases, running homebrew on your device is 100% free using just the Nintendo 3DS Sound app. There are also various other exploits in commercial games and the browser to get homebrew running.
-
+To open homebrew apps and games goto ulaunchelf and go to either MASS or MC1 or MC2 then open the app or game you chose with the .ELF extension.
 ## What is Custom Firmware?
 
-**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do. For instance, signature patches let you install unsigned titles that appear right on your HOME Menu.
+What Is FreeMcBoot? FreeMcBoot is installed onto a standard PS2 memory card. When this memory card is plugged into your PS2, then your PS2 boots into the FMCB homescreen, and is functionally "modded." As soon as you remove this memory card, and reboot your PS2, it is 100% completely reverted back to stock. All the "magic" happens int he PS2's memory so nothing about it is permanent. Advanced users can even install FreeMcBoot onto the internal hard drive of a PS2 Fat, but even this can be undone by removing or reformatting the hard drive. Nothing about FreeMcBoot is permanent.
 
-CFW can be set up on any console on any version (but may require additional tools / accessories for versions >11.3.0).
-
-## What does this guide install?
-
-This guide has the end goal of taking a completely unmodified 3DS from stock
-firmware to boot9strap powered Custom Firmware. On some versions, it utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
-
-boot9strap is the newest and best method of launching Custom Firmware that gives us nearly full control of the system only milliseconds into boot, which is similar to the effect of BootMii for the Wii. It gives us even earlier control than arm9loaderhax did, and, unlike standard sighax, boot9strap uses an NDMA overwrite exploit in order to gain Boot9 code execution. This means that any console running boot9strap is capable of dumping the console unique OTP (`OTP.bin`), the ARM11 bootrom (`boot11.bin`), and the ARM9 bootrom (`boot9.bin`).
-
-The benefits of boot9strap over other Custom Firmware launch methods are numerous, and as such it is recommended to use this guide over any other that relies on outdated software (such as menuhax + rxTools, arm9loaderhax, or even normal sighax).
-
-For information on how boot9strap works, please see [this presentation](https://sciresm.github.io/33-and-a-half-c3/) by [SciresM](https://github.com/SciresM/).
-
-For a list of each of the calculated sighax signatures (the platform boot9strap is built on), see [this gist](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
 
 ## What can I do with Custom Firmware?
 
-+ Play all game cards and eShop games, regardless of region
-+ Customize your HOME Menu with user-created [themes and splash screens](https://themeplaza.eu/)
-+ Use "ROM hacks" for games that you own
-+ Take gameplay and application screenshots
++ Play all game, regardless of region
++ Customize your HOME Menu with user-created games and apps
++ Use mods for games 
++ Play in 1080i or 1080p
 + Backup, edit, and restore saves for many games
-+ Play games for older systems with various emulators, using RetroArch or other standalone emulators. (Works best with a New Nintendo 3DS)
++ Play games for older systems with various emulators, using standalone emulators. 
 + Install homebrew titles to your system, and have them appear on your HOME Menu
-+ Dump your game cards to a format you can install, and play them without needing the card
-+ New 3DS or New 2DS only: stream live gameplay to your PC wirelessly with NTR CFW
-+ Run many old Nintendo DS flash carts that were blocked long ago or never worked on Nintendo 3DS
-+ Safely update to the latest system version without fear of losing access to homebrew
++ Dump your games to the ISO format so you can play them without needing the card
 
 ## What do I need to know before starting?
 
