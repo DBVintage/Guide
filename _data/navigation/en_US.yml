@@ -1,7 +1,7 @@
 ---
 main:
   -
-    title: 3DS Guide
+    title: PlayStation2 Guide
     url: /
   -
     title: FAQ
@@ -13,29 +13,35 @@ main:
     title: Credits
     url: credits
   -
-    title: Updating B9S
-    url: updating-b9s
+    title: Install FreeMcBoot
+    url: install-freemcboot
   -
-    title: A9LH to B9S
-    url: a9lh-to-b9s
+    title: Install Homebrew
+    url: install-homebrew
   -
     title: Troubleshooting
     url: troubleshooting
   -
-    title: Region Changing
-    url: region-changing
+    title: GSM Setup
+    url: gsm-setup
   -
-    title: GodMode9 Usage
-    url: godmode9-usage
+    title: OPL Setup
+    url: opl-setup
   -
     title: Site Navigation
     url: site-navigation
   -
-    title: Uninstall CFW
-    url: uninstall-cfw
-bottom:
+    title: PopStarter
+    url: popstarter
+  - 
+    title: CodeBreaker and OPL
+    url: codebreaker-and-opl
   -
-    title: For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
+    title: Homebrew Downloads
+    url: homebrew-downloads
+bottom: 
+  -
+    title: For support in English, ask for help at <a href="https://discord.gg/FcHuesx">Playstation2 Homebrew on Discord</a>.
   -
     title: If you appreciate this guide, I accept <a href="donations">Donations</a> through <a href="https://www.paypal.me/plailectguides/15">PayPal</a> or <a href="bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety">Bitcoin</a>.
 footer:
