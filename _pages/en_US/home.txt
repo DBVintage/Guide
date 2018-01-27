@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "PlayStation 2 Guide" #
+title: "FreeMcBoot Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
@@ -54,14 +54,11 @@ What Is FreeMcBoot? FreeMcBoot is installed onto a standard PS2 memory card. Whe
 
 ## What do I need to know before starting?
 
-+ **Before beginning the guide, you must know the risks of 3DS hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
-+ If you have already hacked your 3DS before to get an EmuNAND setup, and would like to move the contents of your previous EmuNAND to your new SysNAND CFW, you should follow all instructions and restore your existing EmuNAND when prompted once you reach [Finalizing Setup](finalizing-setup).
++ **FreeMcBoot is installed onto a standard PS2 memory card. When this memory card is plugged into your PS2, then your PS2 boots into the FMCB homescreen, and is functionally "modded." As soon as you remove this memory card, and reboot your PS2, it is 100% completely reverted back to stock. All the "magic" happens int he PS2's memory so nothing about it is permanent. Advanced users can even install FreeMcBoot onto the internal hard drive of a PS2 Fat, but even this can be undone by removing or reformatting the hard drive. Nothing about FreeMcBoot is permanent..
 + This guide will work on New 3DS, Old 3DS, New 2DS, and Old 2DS in all regions on firmware 11.6.0 or below.
 + If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
-+ Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!
-+ Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/) (the SD card that comes with your device will be MBR by default).
-+ If you need to format a brand new SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
-+ The 2DS is essentially identical to the Old 3DS in terms of software, and that any steps which say "Old 3DS" also apply to 2DS.
++ Keep your Memory Cards plugged throughout the entire process to avoid data loss or damage!
+coming soon
 
 ___
 
